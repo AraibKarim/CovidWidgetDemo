@@ -11,11 +11,12 @@ You can edit the widget by selecting a country through Intents.
 
 ## Note
 
-You cant select the country from the application right now because it requires 'Appgroups' to communicate with the widget. You can add Appgroups to add the functionality.
+- You cant select the country from the application right now because it requires 'Appgroups' to communicate with the widget. You can add Appgroups to add the functionality.
+- As mentioned in Xcode 12 beta release notes, Xcode 12 beta #2 has few know issues while configuring a widget. Workaround: delete the app and run it again.
 
 ## Run the Project?
 
-Just download the project and run it in Xcode.
+Just download the project and run it in Xcode 12
 
 ## Compatibility 
 
