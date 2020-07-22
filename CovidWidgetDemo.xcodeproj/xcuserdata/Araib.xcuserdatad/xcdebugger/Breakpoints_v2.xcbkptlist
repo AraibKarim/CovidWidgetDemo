@@ -24,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "A0881F38-4A57-454F-A1A2-B51FD312D634"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CovidWidgetDemo/Network/NetworkManager.swift"
@@ -46,8 +46,8 @@
             filePath = "CovidWidgetDemo/Network/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "getStatsBasedOnCountry(name:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -82,6 +82,70 @@
             endingLineNumber = "48"
             landmarkName = "timeline(for:with:completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F15468CB-F157-4268-B2F8-2874343DFF80"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CovidWidgetDemo/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getStatsBasedOnCountry(name:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EFB8639-4AC1-4CB7-A3E4-57D3A0D66390"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CovidWidgetDemo/View/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8EFB8639-4AC1-4CB7-A3E4-57D3A0D66390 - dcd9bcc90e6c3d13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CovidWidgetDemo.ContentView.loadData() -&gt; ()"
+                  moduleName = "CovidWidgetDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/widgetkit/sample/CovidWidgetDemo/CovidWidgetDemo/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "243">
+               </Location>
+               <Location
+                  uuid = "8EFB8639-4AC1-4CB7-A3E4-57D3A0D66390 - b1f39140de745cdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;CovidWidgetDemo.CountryStats&gt;, CovidWidgetDemo.DataResponseError&gt;) -&gt; () in CovidWidgetDemo.ContentView.loadData() -&gt; ()"
+                  moduleName = "CovidWidgetDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Araib/Desktop/widgetkit/sample/CovidWidgetDemo/CovidWidgetDemo/View/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

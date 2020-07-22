@@ -19,6 +19,7 @@ struct ContentView: View {
     
     let viewModel = ViewModel ()
     
+    
 
     var allCountries : Data = Data()
     let AppGroup  = "group.WoodyApps.CovidWidgetDemo"
@@ -61,6 +62,10 @@ struct ContentView: View {
     func loadData (){
         if let countries =  viewModel.loadData () {
             self.countries = countries
+        }
+        networkManager.getStatsBasedOnCountry(name : "pakistan") {
+            result in
+            
         }
     }
     
