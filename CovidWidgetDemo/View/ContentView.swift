@@ -63,10 +63,7 @@ struct ContentView: View {
         if let countries =  viewModel.loadData () {
             self.countries = countries
         }
-        networkManager.getStatsBasedOnCountry(name : "pakistan") {
-            result in
-            
-        }
+       
     }
     
 
